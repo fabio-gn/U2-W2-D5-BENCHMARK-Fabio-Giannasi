@@ -1,0 +1,74 @@
+.scroll-right {
+  position: relative;
+  left: calc(100% - 4.9rem);
+  transform: translateY(5rem) scale(300%);
+  z-index: 3;
+  border: none;
+  background-color: transparent;
+  border-radius: 20rem;
+  color: transparent;
+  transition: 0.2s;
+}
+
+.scroll-left {
+  position: relative;
+  left: 1.5rem;
+  transform: translateY(5rem) scale(300%);
+  z-index: 3;
+  border: none;
+  background-color: transparent;
+  border-radius: 20rem;
+  color: transparent;
+  transition: 0.2s;
+}
+.scroll-left:hover,
+.scroll-right:hover {
+  color: rgba(255, 255, 255, 0.642);
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.499), transparent);
+}
+.trending-slide {
+}
+
+/*Firefox */
+.trending-slide {
+  scrollbar-width: 3px;
+  scrollbar-color: #b2b2b2 #000000;
+}
+
+/* Chrome, Edge and Safari */
+.trending-slide::-webkit-scrollbar {
+  height: 2px;
+}
+.trending-slide::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #000000;
+}
+
+.trending-slide::-webkit-scrollbar-thumb {
+  border-radius: none;
+  background-color: #b2b2b2;
+}
+
+.trending-slide::-webkit-scrollbar-thumb:hover {
+  background-color: #929292;
+}
+
+.trending-slide::-webkit-scrollbar-thumb:active {
+  background-color: #828282;
+}
+h2 {
+  margin-bottom: -1rem;
+  font-size: 1.5rem;
+}
+.card {
+  border-radius: none !important;
+}
+.card img {
+  border-radius: none;
+}
+.grigio{
+    background-color: rgb(65, 65, 65);
+}
+.height-tot{
+    height: 10rem;
+}
